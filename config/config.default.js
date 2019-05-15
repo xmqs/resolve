@@ -7,4 +7,14 @@ module.exports = {
     multipart: {
         mode: 'file'
     },
+    io: {
+        namespace: {
+            '/': {
+                connectionMiddleware: [ 'auth' ]
+            },
+            '/test': {
+                connectionMiddleware: [ 'auth' ]
+            }
+        }
+    }
 }

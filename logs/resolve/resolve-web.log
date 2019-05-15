@@ -1,0 +1,208 @@
+2019-04-15 16:37:05,359 ERROR 14716 [-/127.0.0.1/-/5ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/list.tpl from D:\Users\wyx\WebstormProjects\resolve\app\view
+    at Map.resolve (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-view\lib\view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14716
+hostname: DESKTOP-GPCMVNS
+
+2019-04-15 16:37:40,528 ERROR 14716 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/list.tpl from D:\Users\wyx\WebstormProjects\resolve\app\view
+    at Map.resolve (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-view\lib\view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14716
+hostname: DESKTOP-GPCMVNS
+
+2019-04-15 16:37:48,874 ERROR 14716 [-/127.0.0.1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/list.tpl from D:\Users\wyx\WebstormProjects\resolve\app\view
+    at Map.resolve (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-view\lib\view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14716
+hostname: DESKTOP-GPCMVNS
+
+2019-04-15 16:39:33,306 ERROR 13016 [-/127.0.0.1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find news/list.tpl from D:\Users\wyx\WebstormProjects\resolve\app\view
+    at Map.resolve (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-view\lib\view_manager.js:74:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 13016
+hostname: DESKTOP-GPCMVNS
+
+2019-04-16 16:00:56,420 ERROR 16196 [-/127.0.0.1/-/9ms GET /fromdataUper?name=qwe] nodejs.ReferenceError: reportTime is not defined
+    at D:\Users\wyx\WebstormProjects\resolve\app\middleware\report.js:6:9
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+
+pid: 16196
+hostname: DESKTOP-GPCMVNS
+
+2019-04-17 17:52:56,567 WARN 9184 [-/127.0.0.1/-/27ms POST /postcontroller] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-04-17 17:52:56,570 WARN 9184 [-/127.0.0.1/-/29ms POST /postcontroller] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:148:17)
+    at csrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 9184
+hostname: DESKTOP-GPCMVNS
+
+2019-04-17 17:56:59,699 WARN 8848 [-/127.0.0.1/-/22ms POST /postcontroller] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-04-17 17:56:59,702 WARN 8848 [-/127.0.0.1/-/25ms POST /postcontroller] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 8848
+hostname: DESKTOP-GPCMVNS
+
+2019-04-18 10:20:20,033 ERROR 17208 [-/127.0.0.1/-/8ms POST /upload?_csrf={{%20ctx.csrf%20|%20safe%20}}] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg\lib\application.js:257:15)
+    at Object.get cookies [as cookies] (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:97:13)
+    at csrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 17208
+hostname: DESKTOP-GPCMVNS
+
+2019-04-18 10:21:19,042 ERROR 17208 [-/127.0.0.1/-/4ms POST /upload] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg\lib\application.js:257:15)
+    at Object.get cookies [as cookies] (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:97:13)
+    at csrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 17208
+hostname: DESKTOP-GPCMVNS
+
+2019-04-18 10:23:11,403 ERROR 14380 [-/127.0.0.1/-/11ms POST /upload] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg\lib\application.js:257:15)
+    at Object.get cookies [as cookies] (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:86:33)
+    at Object.ensureCsrfSecret (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:97:13)
+    at csrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\lib\middlewares\csrf.js:14:9)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 14380
+hostname: DESKTOP-GPCMVNS
+
+2019-04-18 10:24:17,892 WARN 1848 [-/127.0.0.1/-/11ms POST /upload] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-04-18 10:24:17,903 WARN 1848 [-/127.0.0.1/-/21ms POST /upload] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:148:17)
+    at csrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 1848
+hostname: DESKTOP-GPCMVNS
+
+2019-04-18 10:24:37,796 WARN 1848 [-/127.0.0.1/-/1ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-04-18 10:24:37,797 WARN 1848 [-/127.0.0.1/-/2ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 1848
+hostname: DESKTOP-GPCMVNS
+
+2019-04-18 10:26:26,515 WARN 3472 [-/127.0.0.1/-/4ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-04-18 10:26:26,521 WARN 3472 [-/127.0.0.1/-/8ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 3472
+hostname: DESKTOP-GPCMVNS
+
+2019-04-18 10:29:10,665 WARN 9720 [-/127.0.0.1/-/6ms POST /upload?_csrf={{%20ctx.csrf%20|%20safe%20}}] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-04-18 10:29:10,671 WARN 9720 [-/127.0.0.1/-/13ms POST /upload?_csrf={{%20ctx.csrf%20|%20safe%20}}] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 9720
+hostname: DESKTOP-GPCMVNS
+
+2019-04-18 10:32:03,060 WARN 13060 [-/127.0.0.1/-/6ms POST /upload?_csrf={{%20ctx.csrf%20|%20safe%20}}] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-04-18 10:32:03,064 WARN 13060 [-/127.0.0.1/-/10ms POST /upload?_csrf={{%20ctx.csrf%20|%20safe%20}}] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\app\extend\context.js:157:17)
+    at csrf (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Users\wyx\WebstormProjects\resolve\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 13060
+hostname: DESKTOP-GPCMVNS
+
