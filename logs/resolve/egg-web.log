@@ -9443,3 +9443,33 @@ hostname: DESKTOP-GPCMVNS
 2019-05-15 15:50:38,882 INFO 25556 [egg:core] dump config after load, 6ms
 2019-05-15 15:50:38,906 INFO 25556 [egg-watcher:application] watcher start success
 2019-05-15 15:50:38,936 INFO 25556 [egg:core] dump config after ready, 6ms
+2019-05-17 14:01:59,836 INFO 6960 [egg:logger] init all loggers with options: {"dir":"D:\\Users\\wyx\\WebstormProjects\\resolve\\logs\\resolve","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"resolve-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-17 14:01:59,891 INFO 6960 [egg-multipart] file mode enable
+2019-05-17 14:01:59,891 INFO 6960 [egg-multipart] will save temporary files to "C:\\Users\\wyx\\AppData\\Local\\Temp\\egg-multipart-tmp\\resolve", cleanup job cron: "0 30 4 * * *"
+2019-05-17 14:02:00,000 INFO 6960 [egg-static] starting static serve /public/ -> D:\Users\wyx\WebstormProjects\resolve\app\public
+2019-05-17 14:02:00,006 INFO 6960 [egg-security] use csrf middleware
+2019-05-17 14:02:00,007 INFO 6960 [egg-security] use methodnoallow middleware
+2019-05-17 14:02:00,008 INFO 6960 [egg-security] use noopen middleware
+2019-05-17 14:02:00,009 INFO 6960 [egg-security] use nosniff middleware
+2019-05-17 14:02:00,010 INFO 6960 [egg-security] use xssProtection middleware
+2019-05-17 14:02:00,010 INFO 6960 [egg-security] use xframe middleware
+2019-05-17 14:02:00,011 INFO 6960 [egg-security] use dta middleware
+2019-05-17 14:02:00,011 INFO 6960 [egg-security] compose 7 middlewares into one security middleware
+2019-05-17 14:02:00,031 INFO 6960 [egg:core] dump config after load, 5ms
+2019-05-17 14:02:00,049 INFO 6960 [egg-watcher:application] watcher start success
+2019-05-17 14:02:00,075 INFO 6960 [egg:core] dump config after ready, 4ms
+2019-05-24 14:26:23,392 INFO 10036 [egg:logger] init all loggers with options: {"dir":"D:\\Users\\wyx\\WebstormProjects\\resolve\\logs\\resolve","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"resolve-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-24 14:26:23,432 INFO 10036 [egg-multipart] file mode enable
+2019-05-24 14:26:23,432 INFO 10036 [egg-multipart] will save temporary files to "C:\\Users\\wyx\\AppData\\Local\\Temp\\egg-multipart-tmp\\resolve", cleanup job cron: "0 30 4 * * *"
+2019-05-24 14:26:23,546 INFO 10036 [egg-static] starting static serve /public/ -> D:\Users\wyx\WebstormProjects\resolve\app\public
+2019-05-24 14:26:23,550 INFO 10036 [egg-security] use csrf middleware
+2019-05-24 14:26:23,550 INFO 10036 [egg-security] use methodnoallow middleware
+2019-05-24 14:26:23,551 INFO 10036 [egg-security] use noopen middleware
+2019-05-24 14:26:23,551 INFO 10036 [egg-security] use nosniff middleware
+2019-05-24 14:26:23,552 INFO 10036 [egg-security] use xssProtection middleware
+2019-05-24 14:26:23,553 INFO 10036 [egg-security] use xframe middleware
+2019-05-24 14:26:23,554 INFO 10036 [egg-security] use dta middleware
+2019-05-24 14:26:23,554 INFO 10036 [egg-security] compose 7 middlewares into one security middleware
+2019-05-24 14:26:23,574 INFO 10036 [egg:core] dump config after load, 6ms
+2019-05-24 14:26:23,593 INFO 10036 [egg-watcher:application] watcher start success
+2019-05-24 14:26:23,620 INFO 10036 [egg:core] dump config after ready, 5ms

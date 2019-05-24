@@ -1247,3 +1247,15 @@
 2019-05-15 15:50:38,727 INFO 25556 [egg-schedule]: register schedule D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2019-05-15 15:50:38,727 INFO 25556 [egg-schedule]: register schedule D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-logrotator\app\schedule\clean_log.js
 2019-05-15 15:50:38,727 INFO 25556 [egg-schedule]: register schedule D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-17 14:02:00,084 INFO 14380 [Timer] D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 52079920ms at 2019-05-18 04:30:00.004
+2019-05-17 14:02:00,084 INFO 14380 [Timer] D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 35879916ms at 2019-05-18 00:00:00.000
+2019-05-17 14:02:00,084 INFO 14380 [Timer] D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 35880916ms at 2019-05-18 00:00:01.000
+2019-05-17 14:01:59,890 INFO 6960 [egg-schedule]: register schedule D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-17 14:01:59,890 INFO 6960 [egg-schedule]: register schedule D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-17 14:01:59,890 INFO 6960 [egg-schedule]: register schedule D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-05-24 14:26:23,631 INFO 14804 [Timer] D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 50616373ms at 2019-05-25 04:30:00.004
+2019-05-24 14:26:23,631 INFO 14804 [Timer] D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 34416369ms at 2019-05-25 00:00:00.000
+2019-05-24 14:26:23,631 INFO 14804 [Timer] D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 34417369ms at 2019-05-25 00:00:01.000
+2019-05-24 14:26:23,431 INFO 10036 [egg-schedule]: register schedule D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2019-05-24 14:26:23,431 INFO 10036 [egg-schedule]: register schedule D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-05-24 14:26:23,431 INFO 10036 [egg-schedule]: register schedule D:\Users\wyx\WebstormProjects\resolve\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
